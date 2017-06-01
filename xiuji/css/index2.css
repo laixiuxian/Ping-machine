@@ -1,0 +1,731 @@
+/*黑色头部*/
+
+.box .header {
+	width: 100%;
+	height: 0.4rem;
+	background: #393a3f;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	padding: 0.14rem 0;
+}
+
+.header .close {
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url(../img/close.png) no-repeat 0.28rem 0.05rem;
+	border-right: 0.02rem solid #303135;
+	display: inline-block;
+	background-size: 0.3rem 0.3rem;
+	padding: 0.05rem 0.27rem;
+	float: left;
+}
+
+.header h3 {
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	padding-left: 0.2rem;
+	color: #e6ebeb;
+	float: left;
+}
+
+.header .more {
+	width: 0.4rem;
+	height: 0.4rem;
+	float: right;
+	padding-right: 0.25rem;
+	background: url(../img/more.png) no-repeat;
+	background-size: 0.4rem 0.4rem;
+	position: relative;
+}
+
+
+/*黑色头部结束*/
+
+
+/*我的订单页面*/
+
+nav {
+	width: 100%;
+	overflow: hidden;
+	/*background: green;*/
+}
+
+.search2 {
+	padding: 0.2rem 0;
+	float: left;
+	width: 100%;
+	background: -webkit-linear-gradient(top, #e5e5e5, #fff);
+	/*margin-bottom: 0.2rem;*/
+}
+
+.search2 input {
+	width: 5.8rem;
+	margin: 0 0.3rem;
+	border: 1px solid #bbbbbb;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #999999;
+	font-size: 0.18rem;
+	background: url(../img/fangd.png) no-repeat 38% center #fff;
+	border-radius: 0.1rem;
+	background-size: 0.24rem 0.24rem;
+}
+
+.server {
+	width: 100%;
+	float: left;
+	position: relative;
+	left: 0;
+	top: 0;
+	height: 1.5rem;
+	/*margin-bottom: 0.6rem;*/
+}
+
+.server .menu {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+
+.server .menu li {
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding-top: 0.75rem;
+}
+
+.server .menu li a {
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	color: #999999;
+}
+
+.server .menu li.active a {
+	color: #333;
+}
+
+.server .menu li:nth-child(1) {
+	background: url(../img/server.png) no-repeat center top;
+	background-size: 0.64rem 0.64rem;
+}
+
+.server .menu li:nth-child(1).active {
+	background: url(../img/server2.png) no-repeat center top;
+	background-size: 0.64rem 0.64rem;
+}
+
+.server .menu li:nth-child(2) {
+	background: url(../img/kuai.png) no-repeat center top;
+	background-size: 0.64rem 0.64rem;
+}
+
+.server .menu li:nth-child(2).active {
+	background: url(../img/kuai2.png) no-repeat center top;
+	background-size: 0.64rem 0.64rem;
+}
+
+.server .menu li:nth-child(3) {
+	background: url(../img/shop.png) no-repeat center top;
+	background-size: 0.64rem 0.64rem;
+}
+
+.server .menu li:nth-child(3).active {
+	background: url(../img/shop2.png) no-repeat center top;
+	background-size: 0.64rem 0.64rem;
+}
+
+.server .menu li:nth-child(4) {
+	background: url(../img/pay.png) no-repeat center top;
+	background-size: 0.64rem 0.64rem;
+}
+
+.server .menu li:nth-child(4).active {
+	background: url(../img/pay2.png) no-repeat center top;
+	background-size: 0.64rem 0.64rem;
+}
+
+.server .progress-bar {
+	width: 100%;
+	height: 0.12rem;
+	background: #dddddd;
+	position: absolute;
+	left: 0;
+	bottom: 0.2rem;
+}
+
+.server .progress-bar i {
+	width: 0.32rem;
+	height: 0.16rem;
+	display: inline-block;
+	background: url(../img/xiasj.png) no-repeat;
+	background-size: 0.32rem 0.16rem;
+	position: absolute;
+	bottom: -0.16rem;
+	display: none;
+}
+
+.server .progress-bar i.active {
+	display: block;
+}
+
+.server .progress-bar i:nth-child(1) {
+	left: 10%;
+}
+
+.server .progress-bar i:nth-child(2) {
+	left: 35%;
+}
+
+.server .progress-bar i:nth-child(3) {
+	left: 60%;
+}
+
+.server .progress-bar i:nth-child(4) {
+	left: 85%;
+}
+
+.list {
+	position: relative;
+	/*top:1.5rem*/
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+	padding: 0.13rem 0.35rem;
+	width: 5.7rem;
+	height: 1.85rem;
+	margin: 0.12rem 0;
+}
+
+.list .list-top {
+	width: 100%;
+	overflow: hidden;
+}
+
+.list .list-top ul {
+	width: 126%;
+}
+
+.list .list-top li {
+	width: 50%;
+	float: left;
+	text-align: left;
+	line-height: 0.32rem;
+}
+
+.list .list-top li a {
+	color: #999;
+}
+
+.yellow {
+	color: #d58700;
+}
+
+.red {
+	color: #ff0000;
+}
+
+.blue {
+	color: #1370cf;
+}
+
+.list .list-bot {
+	width: 100%;
+	overflow: hidden;
+	background: #fafafa;
+	margin: 0.07rem 0;
+	position: relative;
+}
+
+.list .list-bot .list-bot-left {
+	float: left;
+	padding-left: 0.2rem;
+}
+
+.list .list-bot .list-bot-left ul {
+	width: 100%;
+}
+
+.list .list-bot .list-bot-left ul li {
+	float: left;
+	/*padding-right:  0.17rem;*/
+	/*margin-right: ;*/
+}
+
+.list .list-bot .list-bot-left .phone {
+	margin-right: 0.38rem;
+}
+
+.list .list-bot .list-bot-left .color {
+	margin-right: 0.50rem;
+}
+
+.list .list-bot .list-bot-left p {
+	float: left;
+	font-size: 0.18rem;
+	line-height: 0.32rem;
+	color: #333;
+}
+
+.list .list-bot .pay {
+	width: 1.14rem;
+	height: 0.34rem;
+	color: #fff;
+	background: #d58700;
+	text-align: center;
+	line-height: 0.34rem;
+	font-size: 0.16rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 50%;
+	margin-top: -0.17rem;
+	cursor: pointer;
+}
+
+.list .list-bot .evaluate {
+	background: #ff0000;
+}
+
+.list .list-bot .toevaluate {
+	background: #1370cf;
+}
+
+
+/*我的订单页面结束*/
+
+
+/*维修颜色与故障*/
+
+.select {
+	width: 100%;
+	height: 0.54rem;
+	font-size: 0.24rem;
+	line-height: 0.54rem;
+	background: url(../img/yuan.png) no-repeat 0.17rem 0.17rem #f4f4f4;
+	padding-left: 0.48rem;
+	border-bottom: 1px solid #e5e5e5;
+	color: #aaaaab;
+	background-size: 0.2rem 0.2rem;
+}
+
+.selectColor,
+.selectType {
+	width: 5.8rem;
+	margin: 0 auto;
+	height: 2.35rem;
+	/*background: red;*/
+	padding: 0.4rem 0;
+}
+
+.selectType {
+	height: 4.61rem;
+}
+
+.choose {
+	float: left;
+	width: 2.3rem;
+	height: 0.74rem;
+	margin: 0.2rem 0.3rem;
+	box-sizing: border-box;
+	border: 1px #aaaaab solid;
+	border-radius: 0.2rem;
+	text-align: center;
+	line-height: 0.72rem;
+	font-size: 0.2rem;
+	color: #aaaaab;
+}
+
+.choose-active {
+	background: url(../img/xuanz.png) no-repeat 1.73rem 0.16rem;
+	background-size: 0.55rem 0.55rem;
+	border-color: #ffa319;
+	color: #000000;
+}
+
+.toSubmit {
+	margin: 0 0.66rem;
+	float: left;
+	width: 5.08rem;
+	height: 2.51rem;
+	/*background: red;*/
+}
+
+.toSubmit input {
+	width: 100%;
+	height: 0.78rem;
+	background: #f5a700;
+	text-align: center;
+	letter-spacing: 0.05rem;
+	border-radius: 0.1rem;
+	font-size: 0.24rem;
+	line-height: 0.78rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+/*维修颜色与故障结束*/
+
+
+/*维修清单页面*/
+
+.select-model {
+	/*width: 100%;*/
+	/*height: 0.84rem;*/
+	font-size: 0.18rem;
+	line-height: 0.84rem;
+	padding-left: 0.66rem;
+	color: #000;
+	display: inline-block;
+}
+
+.select-trouble {
+	width: 5.08rem;
+	float: left;
+	margin: 0 0.66rem;
+	border-bottom: 0.04rem solid #e6e6e6;
+	padding-top: 0.2rem;
+	position: relative;
+}
+
+.select-trouble span {
+	font-size: 0.2rem;
+	color: #000;
+	line-height: 0.66rem;
+	display: inline-block;
+}
+
+.select-trouble span:nth-child(1) {
+	float: left;
+}
+
+.select-trouble span:nth-child(2) {
+	float: right;
+	margin-right: 1rem;
+}
+
+.select-trouble i {
+	width: 0.35rem;
+	height: 0.35rem;
+	display: inline-block;
+	background: url(../img/close01.png) no-repeat;
+	background-size: 0.35rem 0.35rem;
+	position: absolute;
+	right: 0.22rem;
+	bottom: 0.17rem;
+}
+
+.reference-price {
+	font-size: 0.24rem;
+	color: #ff0000;
+	line-height: 0.54rem;
+	padding: 0.2rem 0;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.introduction {
+	width: 5.08rem;
+	height: 1.12rem;
+	float: left;
+	margin: 0 0.66rem;
+	border: 1px dashed #d0d0d0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.introduction p {
+	font-size: 0.18rem;
+	line-height: 0.32rem;
+	color: #a6a6a6;
+	padding: 0 0.2rem;
+}
+
+.accept {
+	float: left;
+	height: 0.38rem;
+	width: 100%;
+	margin: 0.6rem 0;
+}
+
+.accept span {
+	color: #a6a6a6;
+	display: inline-block;
+	float: left;
+	padding: 0 0.16rem 0 0.26rem;
+	line-height: 0.38rem;
+}
+
+.accept i {
+	margin-left: 1.71rem;
+	background: url(../img/tongy.png) no-repeat;
+	background-size: 0.38rem 0.38rem;
+	width: 0.39rem;
+	height: 0.39rem;
+	display: inline-block;
+	float: left;
+}
+
+.accept a {
+	color: #006cf2;
+	text-decoration: underline;
+	width: auto;
+	float: left;
+	line-height: 0.38rem;
+}
+
+
+/*维修清单页面结束*/
+
+
+/*维修分类*/
+
+section {
+	min-height: 11.7rem;
+}
+
+section .banner1 {
+	width: 100%;
+	height: 2.43rem;
+	/*background: red;*/
+}
+
+section .banner1 ul {
+	overflow: hidden;
+	width: 100%;
+	height: 2.43rem;
+}
+
+section .banner1 ul li {
+	float: left;
+}
+
+section .banner1 ul li a {
+	width: 100%;
+}
+
+section .banner1 img {
+	width: 6.4rem;
+}
+
+.malfunction .phone {
+	width: 100%;
+	height: 100%;
+	margin-top: 0.32rem;
+	overflow: hidden;
+	margin-bottom: 5.1rem;
+}
+
+.malfunction .phone li {
+	margin: 0.24rem 0.55rem;
+	height: 1.48rem;
+	border-radius: 0.1rem;
+	overflow: hidden;
+}
+
+.malfunction .phone li:nth-child(1) {
+	background: #9993c0;
+}
+
+.malfunction .phone li:nth-child(2) {
+	background: #a3d048;
+}
+
+.malfunction .phone .iphone {
+	background: url(../img/phone.png) no-repeat;
+	background-size: 1rem 1.22rem;
+	width: 1.22rem;
+	height: 1.22rem;
+	display: inline-block;
+	float: left;
+	margin-top: 0.13rem;
+	margin-left: 0.45rem;
+}
+
+.malfunction .phone .next {
+	background: url(../img/you.png) no-repeat;
+	background-size: 0.52rem 0.52rem;
+	width: 0.53rem;
+	height: 0.53rem;
+	display: inline-block;
+	float: right;
+	margin-top: -0.75rem;
+	margin-right: 0.22rem;
+}
+
+.malfunction .phone .ipad {
+	background: url(../img/pad.png) no-repeat;
+	background-size: 1.18rem 0.86rem;
+	width: 1.22rem;
+	height: 1.22rem;
+	display: inline-block;
+	float: left;
+	margin-top: 0.31rem;
+	margin-left: 0.45rem;
+}
+
+.malfunction .phone .iphone-cont {
+	float: left;
+	padding: 0.3rem 0 0 0.34rem;
+	font-size: 0.38rem;
+	color: #fff;
+	line-height: 0.54rem;
+}
+
+.malfunction .phone .iphone-Econt {
+	width: 2rem;
+	height: 0.34rem;
+	font-size: 0.24rem;
+	text-align: left;
+	color: #fff;
+	line-height: 0.34rem;
+	margin-left: 2.0rem;
+	margin-top: 0.85rem;
+}
+
+
+/*维修分类结束*/
+
+
+/*维修分类2*/
+
+
+/*维修分类2页面*/
+
+.phone-list {
+	width: 100%;
+	margin-bottom: 1.74rem;
+	padding-top: 0.26rem;
+}
+
+.phone-list li {
+	margin: 0.26rem 0.48rem;
+	background: #404040;
+	height: 0.84rem;
+	line-height: 0.84rem;
+	text-align: center;
+	border-radius: 0.08rem;
+}
+
+.phone-list li a {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	color: #fff;
+	font-size: 0.32rem;
+}
+
+.phone-list li.active {
+	background: #262626;
+}
+
+
+/*维修分类2页面结束*/
+
+
+/*维修分类3开始*/
+
+.phone-brand {
+	width: 5.6rem;
+	padding: 0.3rem 0.4rem 0;
+	float: left;
+}
+
+.phone-brand li {
+	margin: 0.22rem 0.26rem;
+	border: 1px solid #909090;
+	border-radius: 0.08rem;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 2.28rem;
+	height: 0.74rem;
+	line-height: 0.74rem;
+	text-align: center;
+	overflow: hidden;
+}
+
+.phone-brand li a {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	color: #000;
+	font-size: 0.24rem;
+}
+
+.phone-brand li.active {
+	border: 1px solid #ffa319;
+	background: url(../img/xuanz.png) no-repeat right bottom;
+	background-size: 0.48rem 0.48rem;
+}
+
+.phone-brand li.active a {
+	color: #000;
+}
+
+
+/*维修分类3结束*/
+
+
+/*页脚开始*/
+
+footer {
+	width: 100%;
+	height: 1.0rem;
+	background: #1a1d3b;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+}
+
+footer ul {
+	width: 100%;
+}
+
+footer ul li {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+footer ul li a {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	color: #cccbcb;
+	padding: 0.55rem 0 0.15rem;
+}
+
+footer ul li:nth-child(1) {
+	background: url(../img/hpage.png) no-repeat center 0.2rem;
+	background-size: 0.35rem 0.35rem;
+}
+
+footer ul li:nth-child(2) {
+	background: url(../img/repair.png) no-repeat center 0.2rem;
+	background-size: 0.35rem 0.35rem;
+}
+
+footer ul li:nth-child(3) {
+	background: url(../img/recovery.png) no-repeat center 0.2rem;
+	background-size: 0.35rem 0.35rem;
+}
+
+footer ul li:nth-child(4) {
+	background: url(../img/order.png) no-repeat center 0.2rem;
+	background-size: 0.35rem 0.35rem;
+}
+
+footer ul li:nth-child(5) {
+	background: url(../img/call.png) no-repeat center 0.2rem;
+	background-size: 0.35rem 0.35rem;
+}
+
+
+/*页脚结束*/
